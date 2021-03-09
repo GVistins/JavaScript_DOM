@@ -1,0 +1,16 @@
+const wrap = document.querySelector("#wrapper");
+
+
+# This wil grab the element with the id or "wrapper" and it is storing it in the variable "wrap"
+
+
+const wmf = document.querySelector("#book-list li:nth-child(2) .name");
+
+# This will grab a specific element in a specific /li tag
+
+
+var books = document.querySelectorAll("#book-list li .name");
+
+# The querySelectorAll can grab all the elements specified.
+
+# You can use for loops to cycle through a collection of elements that have been grabbed like in the last lesson
