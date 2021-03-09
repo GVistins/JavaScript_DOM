@@ -1,0 +1,11 @@
+
+
+document;
+
+# Call onto the websites console to display their page
+
+
+var banner = document.getElementById("backgroundImage");
+banner
+
+# Asign the retrieval of an element by their Id to a variabvle named "banner"

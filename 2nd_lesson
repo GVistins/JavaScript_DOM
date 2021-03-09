@@ -1,0 +1,23 @@
+var titles = document.getElementsByClassName("title")
+
+
+titles
+
+
+# Calling upon a sites class means you will retrieve all the code asigned to the class name and put them in an array
+
+var lis = document.getElementsByTagName("li")
+lis
+
+# Calling upon elements by tag name will do the same thing, with tags instead.
+
+
+i = 0
+for(i < titles.length; i++){
+    console.log(titles[i])
+}
+
+
+# You can orgnaise them in a list to cycle through by using a for loop
+
+
