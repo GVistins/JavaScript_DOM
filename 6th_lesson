@@ -1,0 +1,37 @@
+# Every element in HTML code is a node.
+
+
+const banner = document.querySelector("#page-banner")
+console.log("#page-banner node type is:", banner.nodeType)
+
+# This will tell us what node type the selected element is.
+
+'''
+Node types:
+
+1.  element
+2.  Attr
+3.  Text
+4.  CDATASection
+5.  EntityReference
+6.  Entity
+7.  ProcessingInstruction
+8.  Comment
+9.  document
+10. DocumentType
+11. DocumentFragment
+12. Notation
+'''
+
+console.log("#page-banner node name is:", banner.nodeName)
+
+# This returns the node's name.
+
+console.log("#page-banner has child nodes:", banner.hasChildNodes())
+
+# This will tell us if the node has any child nodes. (Bool)
+
+const clonedBanner = banner.cloneNode(True)
+console.log("#clonedBanner")
+
+# This clones a node, if the bool is False it doesn't clone the nested elements.
