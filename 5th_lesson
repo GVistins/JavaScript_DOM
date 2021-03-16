@@ -1,0 +1,15 @@
+var books = document.querySelectorAll("#book-list li .name")
+
+books.forEach(function(books){
+    book.textContent += "(book title)"
+    })
+
+# With this you can append text to an already existing text element
+
+const bookList = document.querySelector("#book-list")
+bookList.innerHTML = "<h2> Books and more books... </h2>"
+bookList.innerHTML += "<p> This is how you append HTML </p>"
+
+
+# This replaces the book list id content with the h2 text and also add a <p> element to the h2 
+
