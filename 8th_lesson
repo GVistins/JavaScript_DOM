@@ -1,0 +1,15 @@
+const bookList = document.querySelector("#book-list")
+
+
+console.log("book-list next sibling is :", bookList.nextSibling)
+
+# This shows the next sibling of the element
+
+console.log("book-list next element sibling is :", bookList.nextElementSibling)
+
+# This shows the next element sibling
+# To show the previous sibling instead of the next one, replace next with "previous"
+
+bookList.previousElementSibling.querySelector("p").innerHTML += "<br> Too cool for everyone else. </br>"
+
+# This will add an element a p tag in the previous element via query selector.
