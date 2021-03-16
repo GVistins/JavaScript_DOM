@@ -1,0 +1,12 @@
+const bookList = document.querySelector("#book-list")
+
+console.log("the parent node is: ", bookList.parentNode)
+# This will reference the parent node to bookList (parentElement does the same thing)
+
+# if you add another parentNode to the existing parentNode it will give the grandparent node
+
+
+console.log(bookList.childNodes)  # Shows all the child Nodes
+
+console.log(bookList.children)   # Shows all the children elements without text nodes
+
