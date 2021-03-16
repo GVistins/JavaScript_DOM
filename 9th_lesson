@@ -1,0 +1,33 @@
+# Events
+
+var h2 = document.querySelector("#book-list h2")
+h2.addEventListener("click")
+
+# Add an event listener to listen for click events in the h2 event in the book-list element
+
+h2.addEventListener("click", function(e){
+    console.log(e.target);
+    console.log(e);
+})
+
+# This will show different parametres for a certain event
+
+var btns = document.querySelectorAll("#book-list .delete")
+
+btns.forEach(function(btn){
+    btn.addEventListener("click", function(e){
+        const li = e.target.parentElement
+        li.parentNode.removeChild(li)
+    })
+})
+
+# This will delete the button that had the activated click event in #book-list 
+
+
+const link = document.querySelector("#page-banner a")
+link.addEventListener("click", function(e){
+    e.preventDefault()
+})
+
+# This will prevent the default action when clicking on an anchor element (take you to the site)
+
