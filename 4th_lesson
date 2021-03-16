@@ -1,0 +1,12 @@
+# Query selector
+const wrap = document.querySelector("#wrapper")
+
+# This will grab the element with the ID of "wrapper" and asign it to the constant element "wrap"
+
+const book = document.querySelector("#book-list li:nth-child(2) .name")
+
+# This will grab the book that is the 2 element in the book-list
+
+var books = document.querySelectorAll("#book-list li .name")
+
+# This will grab all the elements with a class name of name in the book-list
