@@ -1,0 +1,18 @@
+# Forms and submit elements on them.
+
+document.Forms
+# This will return all the forms in the code
+
+document.forms[0]
+# This will access a certain element in the list of forms
+
+const addForm = document.forms["add-book"];
+addForm.addEventListener("submit", function(e){
+    e.preventDefault();
+    const value = addForm.querySelector("input[type="text"]")
+    console.log(value)
+}
+    
+)
+
+# This will add the book the user inputed.
